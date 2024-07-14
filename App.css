@@ -1,0 +1,53 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+form {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(4, 4, 4, 0.5);
+  
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+label {
+  margin-right: 15px;
+  padding: 5px;
+  font-family: 'Monsterrat', sans-serif;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #757e88;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.welcome-container {
+  font-family: 'Monsterrat', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+  padding: 50px;
+  color: white;
+  background-image: url('../public/bgimg.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px solid;
+  box-shadow: 0 0 10px rgba(4, 4, 4, 1);
+}
